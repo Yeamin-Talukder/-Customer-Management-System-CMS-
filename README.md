@@ -36,8 +36,12 @@ We can use save points for vouchers. This will delete a certain number of points
 We can search for customers using their details in branch mode.
 
 
-
-
+# Files Details
+ -  main.c           -> This is the main file that run to start the program.
+ -  admin funtion.h  -> This header file have all the admin oparetion  functions and main page working funtions.
+ -  branch funtion.h -> This header file have all the branch oparetions functoins .
+ -  branch.txt       -> This txt file use as a database for saveing branch and admin details.
+ -  customer.txt     -> This txt file use as a database for saveing all customer data.
 
  # ROADMAP OF PROGRAM :
    ## Admin Login :-
@@ -62,6 +66,19 @@ We can search for customers using their details in branch mode.
 # project Graph
 
 ![project graph bl](https://github.com/Yeamin-Talukder/-Customer-Management-System-CMS-/assets/61332874/3b90dba1-3b3a-4a01-b6cf-9aa76f2b4469)
+
+
+
+# Setup process
+- create a new folder for this project
+- place main.c and the header files in that folder
+- create another folder within it name it output
+- place txt file in output folder
+- now you are ready to go run the main.c file
+
+
+
+
 
 
 
