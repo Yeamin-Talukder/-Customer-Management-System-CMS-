@@ -835,3 +835,102 @@ else
  ```
 
 
+
+
+
+
+
+
+      
+## point :
+  
+  #### Input :
+      coin -> The number of coin you want to delete or add 
+
+ #### Output : 
+    Give me the point value  :
+
+#### Return :
+    None
+
+#### Work :
+    First This function call point_user function then save it's 
+    return value in target variable .Then it takes the amount of 
+    add/delete points.Then do the add/delete oparetion.Last it call
+    the branch open funtion .
+
+#### Code :
+
+```c
+
+point(int choose)
+{
+int target = point_user();
+printf("\n\nGive me the point value  : ");
+int coin;
+scanf("%d",&coin);
+ FILE *file = fopen(CUSTOMER_FILE, "r+");
+    if (!file) {
+        printf("Error opening users file.\n");
+        return -1;
+    }
+    FILE* fp2;
+    fp2 = fopen("temp.txt", "w");
+    struct cms user;
+    int index = 1;
+
+    while (fscanf(file, "%s %s %lli", user.c_usernames, user.c_password, &user.point) != EOF)
+    {
+        if (index != target )
+        {
+ fprintf(fp2, "%s\t\t%s\t\t%i\n",  user.c_usernames,user.c_password,user.point);
+
+        }
+else
+{ 
+    if (choose ==1)
+    {
+           fprintf(fp2, "%s\t\t%s\t\t%i\n",  user.c_usernames,user.c_password,user.point+coin);
+    printf("\n\nOparetion sucessful\n\n");
+
+printf("New Details\n\n");
+printf("NAME : %s\n Number : %s \n Point : %i",  user.c_usernames, user.c_password, user.point+coin);
+    }
+   else
+   {
+ fprintf(fp2, "%s\t\t%s\t\t%i\n",  user.c_usernames,user.c_password,user.point-coin);
+printf("\n\nOparetion sucessful\n\n");
+
+printf("New Details\n\n");
+
+printf("\tNAME : %s\n\tNumber : %s \n\tPoint : %i",  user.c_usernames, user.c_password, user.point-coin);
+
+   }
+}
+   index++;
+    }
+
+    fclose(file);
+    fclose(fp2);
+    remove(CUSTOMER_FILE);
+    rename("temp.txt", CUSTOMER_FILE);
+
+branch_open_page();
+
+
+}
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
