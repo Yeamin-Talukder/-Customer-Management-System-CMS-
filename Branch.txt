@@ -1,0 +1,7 @@
+luffy       123     1     Foosville     1984496596
+yeamin      123     1     YEAMIN        1984493596
+likhon      123     1     LIKHON        1984493596
+durjoy      123     1     DURJOY        1984493596
+BARISHAL    123     0     BARISHAL      988884888
+DHAKA       568     0     DHAKA         154143543
+KHULNA      148     0     KHULNA        159454435
