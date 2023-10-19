@@ -79,6 +79,37 @@ We can search for customers using their details in branch mode.
 
 
 
+# SCREENSHOTS
+
+ #### OPEN PAGE 
+![Screenshot 2023-10-19 225320](https://github.com/Yeamin-Talukder/-Customer-Management-System-CMS-/assets/61332874/82568d33-2fdf-4f25-9483-d593eaafd0e8)
+
+#### LOGIN PAGE
+![Screenshot 2023-10-19 225623](https://github.com/Yeamin-Talukder/-Customer-Management-System-CMS-/assets/61332874/6ac3fdad-8493-4d87-abb3-cbf89b20c1aa)
+
+ #### ADMIN MODE
+![Screenshot 2023-10-19 225634](https://github.com/Yeamin-Talukder/-Customer-Management-System-CMS-/assets/61332874/52dcd41c-f2b8-4b46-9e31-465e4ed7a0dd)
+
+#### SHOW BRANCH
+![Screenshot 2023-10-19 230232](https://github.com/Yeamin-Talukder/-Customer-Management-System-CMS-/assets/61332874/e99d9cab-64fa-471b-9773-0783c6d857e3)
+
+ #### BRANCH MODE
+![Screenshot 2023-10-19 225634](https://github.com/Yeamin-Talukder/-Customer-Management-System-CMS-/assets/61332874/52dcd41c-f2b8-4b46-9e31-465e4ed7a0dd)
+
+#### CUSTOMER DETAILS
+![Screenshot 2023-10-19 230554](https://github.com/Yeamin-Talukder/-Customer-Management-System-CMS-/assets/61332874/d78a137a-9dda-406c-a976-7f07ba5562a7)
+
+ #### BRANCH.TXT FILE
+![Screenshot 2023-10-19 231314](https://github.com/Yeamin-Talukder/-Customer-Management-System-CMS-/assets/61332874/8ebfd4ce-4a30-414e-bbde-b72c008461a8)
+
+
+ #### CUSTOMER.TXT FILE
+ 
+![Screenshot 2023-10-19 231301](https://github.com/Yeamin-Talukder/-Customer-Management-System-CMS-/assets/61332874/21fad6b8-e6c4-4c5d-b168-c48a2a14ff56)
+
+
+
+
 
 
 
